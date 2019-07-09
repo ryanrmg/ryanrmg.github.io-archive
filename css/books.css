@@ -1,0 +1,20 @@
+body {
+    background-color: #131325;
+}
+.flex-row {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+.flex-column {
+    display: flex;
+    flex-flow: column;
+}
+.center {
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
